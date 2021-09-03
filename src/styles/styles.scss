@@ -3,4 +3,9 @@
 @import "helper/mixins";
 @import "helper/keyframes";
 @import "bases/bases";
-@import "pages/_homepage";
+@import "pages/home";
+@import "pages/notFound";
+@import "components/footer";
+@import "components/header";
+@import "components/navigation";
+@import "components/banner";

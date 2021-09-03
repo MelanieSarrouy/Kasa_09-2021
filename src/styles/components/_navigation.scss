@@ -1,0 +1,12 @@
+.navigation {
+  a {
+    color: $color-title;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-left: 3.5rem;
+  }
+}
+
+.nav-active {
+  text-decoration: underline;
+}
