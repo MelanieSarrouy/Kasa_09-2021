@@ -1,0 +1,39 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 3rem;
+  column-gap: 1.5rem;
+  row-gap: 2.5rem;
+  &__flat {
+    width: 21.25rem;
+    height: 21.25rem;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
+    &__img {
+      height: 100%;
+    }
+    &__background {
+      width: 21.25rem;
+      height: 21.25rem;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+      position: absolute;
+    }
+    &__title {
+      color: white;
+      font-weight: 500;
+      font-size: 1.2rem;
+      padding: 1rem;
+      line-height: 1.5rem;
+      position: absolute;
+
+      
+    }
+  }
+}

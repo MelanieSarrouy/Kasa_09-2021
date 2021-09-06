@@ -2,6 +2,7 @@ import React from 'react'
 import Banner from '../components/Banner'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+import Cards from '../components/Cards'
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <div className='bloc_page'>
         <Header />
         <Banner />
+        <Cards />
       </div>
       <Footer />
     </div>
