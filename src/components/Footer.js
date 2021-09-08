@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import logo from '../assets/logoFooter.svg'
 
 class Footer extends React.Component {

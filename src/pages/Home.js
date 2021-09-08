@@ -1,8 +1,12 @@
 import React from 'react'
-import Banner from '../components/Banner'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
-import Cards from '../components/Cards'
+import Gallery from '../components/Gallery'
+import Section1 from '../components/Section1'
+import Background from '../assets/IMG.jpg'
+const title = 'Chez vous, partout et ailleurs'
+
+
 
 class Home extends React.Component {
   render() {
@@ -10,8 +14,11 @@ class Home extends React.Component {
       <div className='home'>
         <div className='bloc_page'>
           <Header />
-          <Banner />
-          <Cards />
+          <Section1 
+            picture={Background}
+            title={title}
+          />
+          <Gallery />
         </div>
         <Footer />
       </div>
