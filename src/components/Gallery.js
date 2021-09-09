@@ -14,7 +14,8 @@ class Gallery extends React.Component {
             <li key={flat.id}>
               <Link 
                 exact 
-                to={`fiche-logement/${flat.id}`} 
+                to={`fiche-logement/${flat.id}`}
+                title={flat.title}
               >
                 <Card 
                   id={flat.id}

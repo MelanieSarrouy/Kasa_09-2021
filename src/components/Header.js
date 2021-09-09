@@ -8,12 +8,12 @@ import { Link } from 'react-router-dom'
 class Header extends React.Component {
   render() {
     return (
-      <div className='header'>
-        <Link exact to='home'>
+      <header className='header'>
+        <Link exact to=''>
           <img src={logo} className="header-logo" alt="logo" />
         </Link>
         <Navigation />
-      </div>
+      </header>
     )
   }
 }
