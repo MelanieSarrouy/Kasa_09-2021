@@ -1,21 +1,27 @@
 import React from 'react'
-import flats from '../datas/data'
+import { Link } from 'react-router-dom'
+import {flats} from '../datas/data'
+import Card from './Card'
 
 class Gallery extends React.Component {
   render() {
     return (
       <main>
+        <h2 className='sr-only'>Gallerie d'appartements</h2>
         <ul className='gallery'>
           {flats
           .map((flat) => (
             <li key={flat.id}>
-              <article className='gallery__flat'>
-                <picture className='gallery__flat__img'>
-                  <source srcSet='' media='' />
-                  <img src={flat.cover} alt={flat.title} />
-                </picture>
-                <h2 className='gallery__flat__title'>{flat.title}</h2> 
-              </article>
+              <Link 
+                exact 
+                to={`fiche-logement/${flat.id}`} 
+              >
+                <Card 
+                  id={flat.id}
+                  cover={flat.cover}
+                  title={flat.title} 
+                />
+              </Link>
             </li>
           ))}
         </ul>

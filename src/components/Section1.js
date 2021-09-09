@@ -1,7 +1,4 @@
 import React from 'react'
-// import Background from '../assets/IMG.jpg'
-// const title = 'Chez vous, partout et ailleurs'
-
 
 
 class Section1 extends React.Component {
