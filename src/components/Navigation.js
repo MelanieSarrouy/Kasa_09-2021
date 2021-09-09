@@ -8,7 +8,7 @@ class Navigation extends React.Component {
         <NavLink exact to='' activeClassName='nav-active'>
           Accueil
         </NavLink>
-        <NavLink exact to='a-propos' activeClassName='nav-active'>
+        <NavLink exact to='/a-propos' activeClassName='nav-active'>
           À Propos
         </NavLink>
       </nav>
