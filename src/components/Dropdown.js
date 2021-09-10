@@ -13,9 +13,9 @@ class Dropdown extends React.Component {
     this.setState(prevState => ({
       isToggleOn: !prevState.isToggleOn
     }))
-    console.log(this.setState.isToggleOn)
   }
   render() {
+    const content = this.props.content
     return (
       <div className='dropdown' onClick={this.handleClick}>
         <div className='dropdown__title'>
@@ -25,9 +25,20 @@ class Dropdown extends React.Component {
       {
         this.state.isToggleOn ?
           <div className='dropdown__content'>
+          {
+            Array.isArray(content) ? 
+            
+            <ul className='dropdown__content__text'>
+              {this.props.content
+              .map((element, index) => (
+                <li key={index}>{element}</li>
+              ))}
+            </ul>
+            :
             <p className='dropdown__content__text'>
-              {this.props.content}
+              {content}
             </p>
+          }
           </div>
           :
           ''

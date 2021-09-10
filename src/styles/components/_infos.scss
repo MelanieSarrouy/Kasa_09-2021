@@ -1,0 +1,30 @@
+.flats__dropdowns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));  
+  column-gap: 6rem;
+}
+
+.flat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  &__container {
+    max-width: 66%;
+    &__title {
+      font-size: 2.25rem;
+      font-weight: 500;
+      line-height: 3.2rem;
+    }
+    &__location {
+      font-size: 1.15rem;
+      font-weight: 500;
+      padding-top: 0.5rem;
+    }
+  }
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  padding: 1.5rem 0;
+}
