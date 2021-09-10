@@ -5,7 +5,7 @@
   &__title {
     background-color: $color-title;
     color: white;
-    border-radius: 0.3rem;
+    border-radius: 0.65rem;
     height: 3rem;
     display: flex;
     align-items: center;
@@ -19,7 +19,7 @@
   &__content {
     background-color: $color-bg3;
     width: 100%;
-    border-radius: 0.3rem;
+    border-radius: 0.65rem;
     &__text {
       padding: 1.5rem 1rem;
       font-size: 1.5rem;
