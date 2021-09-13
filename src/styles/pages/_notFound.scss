@@ -1,26 +1,26 @@
 .notFound {
-  &__main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 5rem;
-    padding-bottom: 2rem;
-    &__404 {
-      font-size: 18rem;
-      font-weight: 700;
-      padding-bottom: 2.5rem;
-    }
-    &__oups {
-      font-size: 2.25rem;
-      font-weight: 500;
-      padding-bottom: 12rem;
-    }
-    &__return {
-      font-size: 1.15rem;
-      font-weight: 500;
-      color: $color-title;
-      text-decoration: underline;
-      padding-bottom: 6rem;
-    }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  &__404 {
+    font-size: 18rem;
+    font-weight: 700;
+    padding-bottom: 2.5rem;
+  }
+  &__oups {
+    font-size: 2.25rem;
+    font-weight: 500;
+    padding-bottom: 12rem;
+    text-align: center;
+    line-height: 3.2rem;
+  }
+  &__return {
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: $color-title;
+    text-decoration: underline;
+    padding-bottom: 6rem;
   }
 }

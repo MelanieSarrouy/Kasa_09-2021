@@ -10,6 +10,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 1;
+    &:hover {
+      animation: pulse 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    }
+
     &__name {
       font-size: 1.5rem;
       font-weight: 500;
@@ -19,15 +24,22 @@
   &__content {
     background-color: $color-bg3;
     width: 100%;
-    border-radius: 0.65rem;
+    border-radius: 0 0 0.65rem 0.65rem;
+    z-index: 0;
+    margin-top: -1rem;
+    animation: listes 800ms cubic-bezier(.35,.13,.25,1);
     &__text {
-      padding: 1.5rem 1rem;
-      font-size: 1.5rem;
+      padding: 2rem 1rem 1.5rem 1rem;
+      font-size: 1.3rem;
       line-height: 2.2rem;
+      font-weight: 400;
     }
   }
 }
 .fas {
   padding: 0 1.5rem;
   font-size: 1.5rem;
+}
+.fa-chevron-up {
+  animation: arrowUp 800ms cubic-bezier(.35,.13,.25,1);
 }

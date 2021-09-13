@@ -1,0 +1,33 @@
+.card {
+  max-width: 21.25rem;
+  height: 21.25rem;
+  border-radius: 0.63rem;
+  position: relative;
+  overflow: hidden;
+  &__container {
+    display: flex;
+    justify-content: center;
+    transform: scale(1);
+    transition: transform 0.4s ease-in-out, opacity 0.1s 100ms;
+    &:hover {
+      transform: scale(1.05);
+      opacity: 0.8;
+  }
+    &::after {
+      @include bkg($background-gradient);
+    }
+    &__img {
+      height: 21.25rem;
+      width: auto;
+    }
+  }
+  &__title {
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 1.25rem;
+    line-height: 1.5rem;
+    position: absolute;
+    bottom: 0;
+  }
+}

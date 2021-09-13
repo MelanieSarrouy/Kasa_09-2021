@@ -1,0 +1,11 @@
+.rating {
+  padding: 1.5rem 0;
+  text-align: right;
+  display: flex;
+  &__item {
+    width: 1.9rem;
+    height: 1.9rem;
+    margin-left: 0.8rem;
+    margin-bottom: .5rem;
+  }
+}

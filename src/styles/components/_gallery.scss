@@ -6,28 +6,4 @@
   row-gap: 3.2rem;
   background-color: $color-bg3;
   border-radius: 1.6rem;
-  &__flat {
-    max-width: 21.25rem;
-    height: 21.25rem;
-    border-radius: 0.63rem;
-    position: relative;
-    overflow: hidden;
-    &__img {
-      &::after {
-        @include bkg($background-gradient);
-      }
-      & > img {
-        height: 100%;
-      }
-    }
-    &__title {
-      color: white;
-      font-weight: 500;
-      font-size: 1.2rem;
-      padding: 1.25rem;
-      line-height: 1.5rem;
-      position: absolute;
-      bottom: 0;
-    }
-  }
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import {flats} from '../datas/data'
-import Card from './Card'
+import Card from './Card.jsx'
 
 class Gallery extends React.Component {
   render() {
@@ -12,7 +12,7 @@ class Gallery extends React.Component {
           {flats
           .map((flat) => (
             <li key={flat.id}>
-              <Link to={`fiche-logement/${flat.id}`}>
+              <Link exact to={`fiche-logement/${flat.id}`}>
                 <Card 
                   id={flat.id}
                   cover={flat.cover}
