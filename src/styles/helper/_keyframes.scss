@@ -1,4 +1,4 @@
-@keyframes listes {
+@keyframes listesD {
   0% {
     transform: translateY(-10rem);
     opacity: 0;
@@ -11,6 +11,21 @@
     transform: translateY(0rem);
   }
 }
+
+@keyframes listesM {
+  0% {
+    transform: translateY(-5rem);
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0rem);
+  }
+}
+
 
 @keyframes shake {
   10%, 90% {

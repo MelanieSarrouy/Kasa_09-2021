@@ -12,7 +12,7 @@
     @include respond-to(small-screen) {
       width: 9rem;
     }
-    &:hover {
+    &:hover, &:active {
       animation: swing 0.82s cubic-bezier(.36,.07,.19,.97) both;
     }
   }

@@ -5,34 +5,39 @@
   overflow: hidden;
   margin-bottom: 2rem;
   position: relative;
-  &__container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  @include respond-to(small-screen) {
+    margin-top: 1.5rem;
+    border-radius: 0.65rem;
+    height: 16rem;
+    margin-bottom: 0.8rem;
+  }
+  &__img {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
     height: 26rem;
-    position: relative;
-    z-index: 0;
-    &__img {
-      position: absolute;
-      top: 50%;
-      transform: translate(0%, -50%);
-    }
-    &__counter {
-      position: absolute;
-      z-index: 1;
-      bottom: 8%;
-      display: flex;
-      width: 100%;
-      justify-content: center;
-      color: white;
-      font-weight: 500;
-      font-size: 1.2rem;
-      & > p {
-        text-shadow: 1px 1px 2px black;
-      }
+    @include respond-to(small-screen) {
+      height: 100%;
     }
   }
-  &__left {
+  &__counter {
+    position: absolute;
+    z-index: 1;
+    bottom: 8%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    @include respond-to(small-screen) {
+      display: none;
+    }
+    & > p {
+      text-shadow: 1px 1px 2px black;
+    }
+  }
+  &__left, &__right {
     position: absolute;
     width: 3rem;
     height: 26rem;
@@ -42,21 +47,22 @@
     z-index: 1;
     top: 50%;
     transform: translate(0%, -50%);
+    @include respond-to(large-screen) {
+      width: 1.2rem; 
+      height: 26rem;   
+      padding: 1.5rem;
+    }
 
+    @include respond-to(small-screen) {
+      width: 0.8rem; 
+      height: 16rem;   
+      padding: 1rem;
+    }
     &:hover {
       background: linear-gradient(90deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.4) 30%, rgba(0,0,0,.1) 80%, rgba(0,0,0,0) 100%);     }
-}
+  }
   &__right {
-    position: absolute;
-    width: 3rem;
-    height: 26rem;
-    display: flex;
-    align-items: center;
-    padding: 2rem;
-    z-index: 1;
     right: 0;
-    top: 50%;
-    transform: translate(0%, -50%);
     &:hover {
       background: linear-gradient(270deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.4) 30%, rgba(0,0,0,.1) 80%, rgba(0,0,0,0) 100%);     }
   }

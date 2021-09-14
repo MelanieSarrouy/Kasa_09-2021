@@ -2,6 +2,10 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
+  @include respond-to(small-screen) {
+    margin-bottom: 1.5rem;
+  }
+
   &__title {
     background-color: $color-title;
     color: white;
@@ -11,14 +15,21 @@
     align-items: center;
     justify-content: space-between;
     z-index: 1;
+    @include respond-to(small-screen) {
+      border-radius: 0.3rem;
+      height: 2.5rem;
+    }
     &:hover {
       animation: pulse 0.82s cubic-bezier(.36,.07,.19,.97) both;
     }
-
     &__name {
       font-size: 1.5rem;
       font-weight: 500;
       padding: 0 1rem;
+      @include respond-to(small-screen) {
+        font-size: 1rem;
+        padding: 0 .8rem;
+      }
     }
   }
   &__content {
@@ -27,18 +38,29 @@
     border-radius: 0 0 0.65rem 0.65rem;
     z-index: 0;
     margin-top: -1rem;
-    animation: listes 800ms cubic-bezier(.35,.13,.25,1);
+    animation: listesD 800ms cubic-bezier(.35,.13,.25,1);
+    @include respond-to(small-screen) {
+      animation: listesM 800ms cubic-bezier(.35,.13,.25,1);
+    }
     &__text {
       padding: 2rem 1rem 1.5rem 1rem;
       font-size: 1.3rem;
       line-height: 2.2rem;
       font-weight: 400;
+      @include respond-to(small-screen) {
+        font-size: 1rem;
+        line-height: 1.6rem;
+      }
     }
   }
 }
 .fas {
   padding: 0 1.5rem;
   font-size: 1.5rem;
+  @include respond-to(small-screen) {
+    font-size: 1.2rem;
+    padding: 0 0.8rem;
+  }
 }
 .fa-chevron-up {
   animation: arrowUp 800ms cubic-bezier(.35,.13,.25,1);

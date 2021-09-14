@@ -46,9 +46,9 @@ class Carrousel extends React.Component {
         }
       <img src={pictures[current]} 
             alt={`${title} visuel ${current +1}`} 
-            className='carrousel__container__img' 
+            className='carrousel__img' 
       />
-      <div className='carrousel__container__counter'>
+      <div className='carrousel__counter'>
         <p>{current+1} / {pictures.length}</p>
       </div>
     </section>

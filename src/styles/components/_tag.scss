@@ -3,15 +3,25 @@
   flex-direction: row;
   flex-wrap: wrap;
   padding: 1.5rem 0;
+  @include respond-to(small-screen) {
+    padding: 1rem 0 0.5rem 0;
+  }
+
   &__item {
     background-color: $color-title;
     color: white;
     padding: 0.5rem 2.5rem;
     border-radius: 0.65rem;
-    font-size: 0.85rem;
+    font-size: 1rem;
     margin-right: 1rem;
     margin-bottom: .5rem;
     line-height: 1.25rem;
     text-align: center;
+    @include respond-to(small-screen) {
+      font-size: 0.85rem;
+      padding: 0.3rem 2rem;
+      border-radius: 0.3rem;
+      margin-right: .6rem;
+    }
   }
 }
