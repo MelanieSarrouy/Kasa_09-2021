@@ -4,6 +4,10 @@
     font-weight: 500;
     font-size: 1.5rem;
     padding-left: 3.5rem;
+    @include respond-to(small-screen) {
+      font-size: 1rem;
+      padding-left: 0.7rem;
+    }
   }
 }
 

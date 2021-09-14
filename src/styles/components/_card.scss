@@ -4,11 +4,23 @@
   border-radius: 0.63rem;
   position: relative;
   overflow: hidden;
+  @include respond-to(large-screen) {
+    max-width: 32rem;
+  }
+  @include respond-to(small-screen) {
+    height: 16rem;
+  }
   &__container {
     display: flex;
     justify-content: center;
     transform: scale(1);
     transition: transform 0.4s ease-in-out, opacity 0.1s 100ms;
+    @include respond-to(large-screen) {
+      max-width: 32rem;
+    }
+    @include respond-to(small-screen) {
+      height: 16rem;
+    }
     &:hover {
       transform: scale(1.05);
       opacity: 0.8;
@@ -18,7 +30,13 @@
     }
     &__img {
       height: 21.25rem;
-      width: auto;
+      // width: auto;
+      @include respond-to(large-screen) {
+        max-width: 32rem;
+      }
+      @include respond-to(small-screen) {
+        height: 16rem;
+      }
     }
   }
   &__title {

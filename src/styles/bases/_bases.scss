@@ -13,6 +13,10 @@ body {
   margin: auto;
   padding: 2.25rem 6.25rem 3rem;  
   background-color: white;
+  @include respond-to(small-screen) {
+    padding: 1.25rem;  
+  }
+
 }
 img {
   width: 100%;

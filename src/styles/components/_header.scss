@@ -3,8 +3,15 @@
   justify-content: space-between;
   align-items: center;
   padding-bottom: 2rem;
+  @include respond-to(small-screen) {
+    padding-bottom: 0;
+  }
+
   &-logo {
     width: 13.1rem;
+    @include respond-to(small-screen) {
+      width: 9rem;
+    }
     &:hover {
       animation: swing 0.82s cubic-bezier(.36,.07,.19,.97) both;
     }
