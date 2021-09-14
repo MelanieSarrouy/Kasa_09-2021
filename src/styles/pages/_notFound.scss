@@ -8,6 +8,10 @@
     font-size: 18rem;
     font-weight: 700;
     padding-bottom: 2.5rem;
+    @include respond-to(small-screen) {
+      font-size: 6rem;
+      padding-bottom: 1.5rem;
+    }
   }
   &__oups {
     font-size: 2.25rem;
@@ -15,12 +19,22 @@
     padding-bottom: 12rem;
     text-align: center;
     line-height: 3.2rem;
+    @include respond-to(small-screen) {
+      font-size: 1.15rem;
+      line-height: 1.6rem;
+      padding-bottom: 8rem;
+    }
   }
   &__return {
     font-size: 1.15rem;
     font-weight: 500;
     color: $color-title;
     text-decoration: underline;
-    padding-bottom: 6rem;
+    padding-bottom: 8rem;
+    text-align: center;
+    @include respond-to(small-screen) {
+      font-size: 1rem;
+      line-height: 1.2rem;
+    }
   }
 }

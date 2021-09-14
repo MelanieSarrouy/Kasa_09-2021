@@ -39,3 +39,11 @@
   }
 }
 
+.about {
+  & > section {
+    @include respond-to(small-screen) {
+      height: 13.9rem;
+    }
+  }
+}
+

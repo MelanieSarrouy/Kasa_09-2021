@@ -6,11 +6,20 @@
   justify-content: center;
   padding: 3rem 0;
   color: white;
+  text-align: center;
   &__img {
     width: 7.6rem;
     padding-bottom: 2rem;
     & path {
       fill: white;
     }
+  }
+  &__rights {
+    font-size: 1.5rem;
+    @include respond-to(small-screen) {
+      font-size: 0.8rem;
+      line-height: 1.1rem;
+    }
+  
   }
 }

@@ -3,7 +3,7 @@
   flex-direction: column;
   margin-bottom: 2rem;
   @include respond-to(small-screen) {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
   }
 
   &__title {

@@ -19,7 +19,7 @@ class Dropdown extends React.Component {
     return (
       <div className='dropdown' onClick={this.handleClick}>
         <div className='dropdown__title'>
-          <p className='dropdown__title__name'>{this.props.title}</p>
+          <h2 className='dropdown__title__name'>{this.props.title}</h2>
           <i className={`fas ${this.state.isToggleOn ? "fa-chevron-up" : "fa-chevron-down"}`}></i>
         </div>
       {
