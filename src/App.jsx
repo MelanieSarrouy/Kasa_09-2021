@@ -15,10 +15,11 @@ class App extends React.Component {
           <div className="bloc_page">
             <Header />
             <Switch>
-              <Route exact={true} path="/" component={Home} />
-              <Route exact={true} path="/a-propos" component={About} />
+              <Route exact path="/" component={Home} />
+              <Route exact path="/MelanieSarrouy_P11_01092021" component={Home} />
+              <Route exact path="/a-propos" component={About} />
               <Route
-                exact={true}
+                exact
                 path="/fiche-logement/:id"
                 component={Flats}
               />
