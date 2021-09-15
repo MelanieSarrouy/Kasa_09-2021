@@ -11,26 +11,21 @@ class App extends React.Component {
   render() {
     return (
       <BrowserRouter>
-        <div className='home'>
-          <div className='bloc_page'>
+        <div className="home">
+          <div className="bloc_page">
             <Header />
             <Switch>
-              <Route exact={true} 
-                     path='/' 
-                     component={Home} />
-              <Route exact={true} 
-                     path='/MelanieSarrouy_P11_01092021' 
-                     component={Home} />
-              <Route exact={true} 
-                     path='/a-propos' 
-                     component={About} />
-              <Route exact={true} 
-                     path='/fiche-logement/:id' 
-                     component={Flats} />
+              <Route exact={true} path="/" component={Home} />
+              <Route exact={true} path="/a-propos" component={About} />
+              <Route
+                exact={true}
+                path="/fiche-logement/:id"
+                component={Flats}
+              />
               <Route component={NotFound} />
             </Switch>
           </div>
-        <Footer />
+          <Footer />
         </div>
       </BrowserRouter>
     )
