@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MelanieSarrouy_P11_01092021/static/css/main.4b11febe.chunk.css",
-    "main.js": "/MelanieSarrouy_P11_01092021/static/js/main.804f1b8c.chunk.js",
-    "main.js.map": "/MelanieSarrouy_P11_01092021/static/js/main.804f1b8c.chunk.js.map",
+    "main.js": "/MelanieSarrouy_P11_01092021/static/js/main.8c660484.chunk.js",
+    "main.js.map": "/MelanieSarrouy_P11_01092021/static/js/main.8c660484.chunk.js.map",
     "runtime-main.js": "/MelanieSarrouy_P11_01092021/static/js/runtime-main.7f3179b1.js",
     "runtime-main.js.map": "/MelanieSarrouy_P11_01092021/static/js/runtime-main.7f3179b1.js.map",
     "static/js/2.3eed44c8.chunk.js": "/MelanieSarrouy_P11_01092021/static/js/2.3eed44c8.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.7f3179b1.js",
     "static/js/2.3eed44c8.chunk.js",
     "static/css/main.4b11febe.chunk.css",
-    "static/js/main.804f1b8c.chunk.js"
+    "static/js/main.8c660484.chunk.js"
   ]
 }
