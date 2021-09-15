@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/MelanieSarrouy_P11_01092021/static/css/main.4b11febe.chunk.css",
-    "main.js": "/MelanieSarrouy_P11_01092021/static/js/main.804f1b8c.chunk.js",
-    "main.js.map": "/MelanieSarrouy_P11_01092021/static/js/main.804f1b8c.chunk.js.map",
-    "runtime-main.js": "/MelanieSarrouy_P11_01092021/static/js/runtime-main.7f3179b1.js",
-    "runtime-main.js.map": "/MelanieSarrouy_P11_01092021/static/js/runtime-main.7f3179b1.js.map",
-    "static/js/2.3eed44c8.chunk.js": "/MelanieSarrouy_P11_01092021/static/js/2.3eed44c8.chunk.js",
-    "static/js/2.3eed44c8.chunk.js.map": "/MelanieSarrouy_P11_01092021/static/js/2.3eed44c8.chunk.js.map",
-    "index.html": "/MelanieSarrouy_P11_01092021/index.html",
-    "static/css/main.4b11febe.chunk.css.map": "/MelanieSarrouy_P11_01092021/static/css/main.4b11febe.chunk.css.map",
-    "static/js/2.3eed44c8.chunk.js.LICENSE.txt": "/MelanieSarrouy_P11_01092021/static/js/2.3eed44c8.chunk.js.LICENSE.txt",
-    "static/media/IMG.8dbc3e4f.jpg": "/MelanieSarrouy_P11_01092021/static/media/IMG.8dbc3e4f.jpg",
-    "static/media/chevron-droite.88153a5d.svg": "/MelanieSarrouy_P11_01092021/static/media/chevron-droite.88153a5d.svg",
-    "static/media/chevron-gauche.19918a16.svg": "/MelanieSarrouy_P11_01092021/static/media/chevron-gauche.19918a16.svg",
-    "static/media/kalen-emsley-Bkci_8qcdvQ-unsplash 2.5e30ecd5.jpg": "/MelanieSarrouy_P11_01092021/static/media/kalen-emsley-Bkci_8qcdvQ-unsplash 2.5e30ecd5.jpg",
-    "static/media/logoFooter.ee689fd9.svg": "/MelanieSarrouy_P11_01092021/static/media/logoFooter.ee689fd9.svg",
-    "static/media/logoHeader.a6101328.svg": "/MelanieSarrouy_P11_01092021/static/media/logoHeader.a6101328.svg",
-    "static/media/star-empty.7e4ba603.svg": "/MelanieSarrouy_P11_01092021/static/media/star-empty.7e4ba603.svg",
-    "static/media/star-full.6430150c.svg": "/MelanieSarrouy_P11_01092021/static/media/star-full.6430150c.svg"
+    "main.css": "/static/css/main.4b11febe.chunk.css",
+    "main.js": "/static/js/main.b97e2537.chunk.js",
+    "main.js.map": "/static/js/main.b97e2537.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a4cd6b67.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a4cd6b67.js.map",
+    "static/js/2.3eed44c8.chunk.js": "/static/js/2.3eed44c8.chunk.js",
+    "static/js/2.3eed44c8.chunk.js.map": "/static/js/2.3eed44c8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.4b11febe.chunk.css.map": "/static/css/main.4b11febe.chunk.css.map",
+    "static/js/2.3eed44c8.chunk.js.LICENSE.txt": "/static/js/2.3eed44c8.chunk.js.LICENSE.txt",
+    "static/media/IMG.8dbc3e4f.jpg": "/static/media/IMG.8dbc3e4f.jpg",
+    "static/media/chevron-droite.88153a5d.svg": "/static/media/chevron-droite.88153a5d.svg",
+    "static/media/chevron-gauche.19918a16.svg": "/static/media/chevron-gauche.19918a16.svg",
+    "static/media/kalen-emsley-Bkci_8qcdvQ-unsplash 2.5e30ecd5.jpg": "/static/media/kalen-emsley-Bkci_8qcdvQ-unsplash 2.5e30ecd5.jpg",
+    "static/media/logoFooter.ee689fd9.svg": "/static/media/logoFooter.ee689fd9.svg",
+    "static/media/logoHeader.a6101328.svg": "/static/media/logoHeader.a6101328.svg",
+    "static/media/star-empty.7e4ba603.svg": "/static/media/star-empty.7e4ba603.svg",
+    "static/media/star-full.6430150c.svg": "/static/media/star-full.6430150c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7f3179b1.js",
+    "static/js/runtime-main.a4cd6b67.js",
     "static/js/2.3eed44c8.chunk.js",
     "static/css/main.4b11febe.chunk.css",
-    "static/js/main.804f1b8c.chunk.js"
+    "static/js/main.b97e2537.chunk.js"
   ]
 }
