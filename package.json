@@ -2,7 +2,7 @@
   "name": "kasa",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://MelanieSarrouy.github.io/MelanieSarrouy_P11_01092021/",
+  "homepage": "https://MelanieSarrouy.github.io/MelanieSarrouy_P11_01092021",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
