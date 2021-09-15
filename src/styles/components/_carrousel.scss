@@ -39,6 +39,7 @@
   }
   &__left, &__right {
     position: absolute;
+    cursor: pointer;
     width: 3rem;
     height: 26rem;
     display: flex;
