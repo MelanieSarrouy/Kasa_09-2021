@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 class NotFound extends React.Component {
   render() {
@@ -9,9 +9,9 @@ class NotFound extends React.Component {
         <h2 className="notFound__oups">
           Oups! La page que vous demandez n'existe pas.
         </h2>
-        <NavLink exact to="/" className="notFound__return">
+        <Link to="/" className="notFound__return">
           Retourner sur la page d'accueil
-        </NavLink>
+        </Link>
       </main>
     )
   }
