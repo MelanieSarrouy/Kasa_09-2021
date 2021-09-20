@@ -19,7 +19,7 @@ class Rating extends React.Component {
             <img
               key={index}
               src={starEmpty}
-              alt="étoile remplie"
+              alt="étoile non remplie"
               className="rating__item"
             />
           )
