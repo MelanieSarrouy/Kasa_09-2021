@@ -11,7 +11,7 @@ class Gallery extends React.Component {
         <ul className="gallery">
           {flats.map((flat) => (
             <li key={flat.id}>
-              <Link exact to={`fiche-logement/${flat.id}`}>
+              <Link to={`fiche-logement/${flat.id}`}>
                 <Card cover={flat.cover} title={flat.title} />
               </Link>
             </li>
