@@ -3,7 +3,7 @@ import React from 'react'
 class Card extends React.Component {
   render() {
     return (
-      <article className="card" id={this.props.id}>
+      <article className="card">
         <div className="card__container">
           <img
             src={this.props.cover}
